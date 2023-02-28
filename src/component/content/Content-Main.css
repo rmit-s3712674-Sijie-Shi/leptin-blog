@@ -1,0 +1,27 @@
+/* .mainBackground {
+    border: 1px dotted rgb(199, 199, 199);
+    border-radius: 1rem;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    min-height: 10rem;
+    background-color: rgb(231, 231, 231);
+} */
+
+.entry {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../public/mainBG.jpg);
+    background-attachment: fixed;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

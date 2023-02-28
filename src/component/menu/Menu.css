@@ -1,0 +1,20 @@
+.menu {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.menuButton {
+    padding: 0.5rem;
+    width: 5rem;
+    margin-right:10px;
+    border-radius: 0.5rem;
+    border: 0.1px solid rgb(231, 231, 231);
+    cursor: pointer;
+    opacity: 0.85;
+}
+
+.menuButton:hover {
+    border: 0.3px solid rgb(199, 199, 199);
+    opacity: 1;
+}
