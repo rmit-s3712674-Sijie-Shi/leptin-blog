@@ -1,12 +1,12 @@
 import React from "react";
 import Menu from "../menu/Menu";
-import './Content-Main.css'
+import styles from './Content-Main.module.css'
 
 const ContentMain = () => {
     return (
         <>
-            <div className="entry">
-                <div className="menu">
+            <div className={styles.entry}>
+                <div className={styles.entrymenu}>
                 <Menu menuSections = {["Home"]}/>
                 </div>
             </div>
