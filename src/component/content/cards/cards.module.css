@@ -1,0 +1,26 @@
+.card {
+    margin: 1rem;
+    border-radius: 1rem;
+    padding: 50px;
+    white-space: pre-line;
+    line-height:250%;
+    font-size: large;
+}
+
+.cursor{
+    animation: 0.6s van-cursor-flicker infinite;
+}
+
+@keyframes van-cursor-flicker {
+    from {
+      opacity: 0;
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+    }
+  }

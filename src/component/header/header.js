@@ -1,9 +1,17 @@
 import React from "react";
+import Menu from "../menu/Menu";
+import styles from "./header.module.css"
+import logo from "../../logo192.png"
 
-const Header = () => {
+const Header = (props) => {
     return (
         <>
-        background pic, some third party icons
+            <div className={styles.headerBgContainer}>
+                <img src={logo} alt="" className={styles.headerBg} />
+            </div>
+            <div className={styles.menuContainer}>
+                <Menu menuSections={props.menuSections} />
+            </div>
         </>
     )
 }

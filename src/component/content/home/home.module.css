@@ -1,0 +1,23 @@
+.homePage{
+    border: 0.2px dotted rgb(238, 238, 238);
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 1rem;
+}
+
+.intro{
+    flex:3;
+    flex-flow: column;
+    border: 0.5px solid rgb(199, 199, 199);
+    margin: 1rem;
+    border-radius: 1rem;
+    padding: 10px;
+}
+
+.wages{
+    flex:2;
+    flex-flow: column;
+    border: 0.5px solid rgb(199, 199, 199);
+    margin: 1rem;
+}

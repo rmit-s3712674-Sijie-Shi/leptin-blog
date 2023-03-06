@@ -1,0 +1,13 @@
+.headerBg {
+    border-radius: 48%;
+    max-width: 140px;
+    max-height: 140px;
+}
+
+.headerBgContainer {
+    text-align: center;
+}
+
+.menuContainer {
+    padding-bottom: 5px;
+}
